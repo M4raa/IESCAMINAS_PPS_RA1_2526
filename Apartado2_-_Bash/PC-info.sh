@@ -35,8 +35,4 @@ kernel_version=$(get_kernel_version)
 hostname_and_user=$(get_hostname_and_user)
 
 ## out
-echo "================== -- PC Info Fetch -- =================="
-echo "nombre del equipo y usuario: $hostname_and_user"
-echo "dirección MAC: $mac_address"
-echo "sistema Operativo: $os, $kernel_version"
-echo "========================================================="
+echo "================== -- PC Info Fetch -- ==================\n nombre del equipo y usuario: $hostname_and_user \n dirección MAC: $mac_address \n sistema Operativo: $os, $kernel_version \n========================================================="
