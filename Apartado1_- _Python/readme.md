@@ -70,3 +70,11 @@ esto significa:
 1. Toma la longitud seleccionada.
 2. En cada posición, elige un carácter aleatorio del conjunto permitido.
 3. Junta todos los caracteres generados para formar la contraseña final.
+
+## los tests unitarios
+
+para correr los tests unitarios he tenido que extraer la principal y unica función que hay en la utilidad, de esta forma evito tener que llamar a la UI cada vez que se ejecuten estos tests. para ejecutar los tests unitarios se hará con: 
+
+```bash
+python -m unittest test_crear_pswd.py
+```
